@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="淡路島を拠点に活動するランニングクラブの1ページサイトです。"
+    />
+    <title>Awaji Athlete Club | 淡路アスリートクラブ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Oswald:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="logo" href="#top" aria-label="トップへ戻る">
+        <span class="logo-mark">AA</span>
+        <span class="logo-copy">
+          <strong>淡路アスリートクラブ</strong>
+          <small>Awaji Athlete Club</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="global-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">メニュー</span>
+      </button>
+      <nav id="global-nav" class="global-nav" aria-label="グローバルナビゲーション">
+        <a href="#philosophy">クラブ理念</a>
+        <a href="#about">チーム紹介</a>
+        <a href="#program">事業内容</a>
+        <a href="#members">メンバー</a>
+        <a href="#news">ニュース</a>
+        <a href="#contact">お問合せ</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <div class="runner runner-one"></div>
+          <div class="runner runner-two"></div>
+          <div class="track-line track-line-a"></div>
+          <div class="track-line track-line-b"></div>
+        </div>
+        <div class="hero-content reveal">
+          <p class="eyebrow">国生みの島・淡路から世界へ</p>
+          <h1 id="hero-title">走る力で、<br />地域と未来を動かす。</h1>
+          <p class="lead">
+            トップアスリートの育成から地域のランニング普及まで。淡路島の魅力を全国へ発信し、
+            夢と感動を分かち合うクラブを目指します。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">体験・お問い合わせ</a>
+            <a class="button ghost" href="#program">活動を見る</a>
+          </div>
+        </div>
+        <div class="hero-card reveal" style="--delay: 120ms">
+          <span class="card-label">Next Session</span>
+          <strong>Sunday 7:00</strong>
+          <p>淡路夢舞台周辺ロード練習</p>
+        </div>
+      </section>
+
+      <section id="news" class="section news-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Information</p>
+          <h2>お知らせ</h2>
+        </div>
+        <div class="news-list reveal" style="--delay: 100ms">
+          <article>
+            <time datetime="2026-05-01">2026/05/01</time>
+            <a href="#contact">春季ランニング体験会の参加受付を開始しました。</a>
+          </article>
+          <article>
+            <time datetime="2026-04-18">2026/04/18</time>
+            <a href="#members">新加入メンバーとサポートスタッフを公開しました。</a>
+          </article>
+          <article>
+            <time datetime="2026-04-02">2026/04/02</time>
+            <a href="#program">ジュニア向け育成プログラムの年間予定を更新しました。</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="philosophy" class="section split-section philosophy">
+        <div class="visual-card reveal" aria-hidden="true">
+          <span class="photo-tag">RUNNING × AWAJI</span>
+        </div>
+        <div class="section-copy reveal" style="--delay: 100ms">
+          <p class="eyebrow">Philosophy</p>
+          <h2>ランニングを通じて豊かな社会実現にむけて</h2>
+          <p>
+            競技力向上だけでなく、走る楽しさ、挑戦する姿勢、地域とのつながりを大切にします。
+            年齢やレベルを問わず、一人ひとりが目標に向かって前進できる環境をつくります。
+          </p>
+          <ul class="check-list">
+            <li>淡路島の自然を活かした実践的なトレーニング</li>
+            <li>トップ選手・育成選手・市民ランナーの循環</li>
+            <li>学校や企業と連携した地域スポーツの普及</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About</p>
+          <h2>淡路アスリートについて</h2>
+        </div>
+        <div class="cards three-columns">
+          <article class="info-card reveal">
+            <div class="icon">01</div>
+            <h3>クラブ概要</h3>
+            <p>
+              兵庫県淡路市・洲本市・南あわじ市を中心に、明石エリアも含めて活動するランニングクラブです。
+            </p>
+          </article>
+          <article class="info-card reveal" style="--delay: 90ms">
+            <div class="icon">02</div>
+            <h3>事業内容</h3>
+            <p>
+              マラソン選手育成、ランニング講座、ジュニアクラブ、地域交流、指導者育成を行います。
+            </p>
+          </article>
+          <article class="info-card reveal" style="--delay: 180ms">
+            <div class="icon">03</div>
+            <h3>メンバー</h3>
+            <p>
+              トップ、育成、普及の3カテゴリで、目標や経験に応じた参加スタイルを用意しています。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="program" class="section program-section">
+        <div class="section-heading light reveal">
+          <p class="eyebrow">Program</p>
+          <h2>事業内容</h2>
+        </div>
+        <div class="program-grid">
+          <article class="program-card reveal">
+            <span>01</span>
+            <h3>トップレベルのマラソン選手育成</h3>
+            <p>競技会での上位入賞を目指し、個別の強化計画とレースサポートを提供します。</p>
+          </article>
+          <article class="program-card reveal" style="--delay: 80ms">
+            <span>02</span>
+            <h3>地域スポーツ普及</h3>
+            <p>初心者向けランニング講座やイベントを通じて、走る楽しさを地域に広げます。</p>
+          </article>
+          <article class="program-card reveal" style="--delay: 160ms">
+            <span>03</span>
+            <h3>ジュニア育成</h3>
+            <p>小学生・中学生・高校生が基礎体力と挑戦心を育てられる練習機会をつくります。</p>
+          </article>
+          <article class="program-card reveal" style="--delay: 240ms">
+            <span>04</span>
+            <h3>地域交流・広報</h3>
+            <p>学校・施設・企業と連携し、淡路島の魅力とスポーツ文化を発信します。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="members" class="section members-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Members</p>
+          <h2>メンバー構成</h2>
+        </div>
+        <div class="member-tabs reveal" role="tablist" aria-label="メンバー種別">
+          <button type="button" role="tab" aria-selected="true" aria-controls="top-member" id="tab-top">トップメンバー</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="growth-member" id="tab-growth">育成メンバー</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="community-member" id="tab-community">普及メンバー</button>
+        </div>
+        <div class="tab-panels reveal" style="--delay: 100ms">
+          <article id="top-member" role="tabpanel" aria-labelledby="tab-top" class="tab-panel active">
+            <h3>国内外のレースで上位を目指す選手</h3>
+            <p>競技志向の高いランナーに、専門的なトレーニングとコンディショニング支援を行います。</p>
+          </article>
+          <article id="growth-member" role="tabpanel" aria-labelledby="tab-growth" class="tab-panel" hidden>
+            <h3>将来の飛躍を目指す若手・育成選手</h3>
+            <p>基礎づくりからレース経験まで、段階的に競技力を高める環境を整えます。</p>
+          </article>
+          <article id="community-member" role="tabpanel" aria-labelledby="tab-community" class="tab-panel" hidden>
+            <h3>ランニングを楽しみたいすべての方</h3>
+            <p>健康づくりや仲間づくりを目的に、無理なく続けられる練習会へ参加できます。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="rules" class="section rules-section">
+        <div class="rules-card reveal">
+          <p class="eyebrow">Club Rules</p>
+          <h2>クラブの規約</h2>
+          <div class="rules-columns">
+            <p><strong>目的：</strong>マラソンを通して淡路島の魅力を全国に発信し、地域の皆様と夢と感動を共有します。</p>
+            <p><strong>活動：</strong>選手育成、講座開催、地域クラブ運営、交流事業、広報活動、指導者育成を行います。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="contact-card reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>一緒に走り出しましょう</h2>
+          <p>体験参加、協賛、講座依頼など、お気軽にお問い合わせください。</p>
+          <a class="button primary" href="mailto:info@example.com">メールで問い合わせる</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>淡路アスリートクラブ</strong>
+        <p>Awaji Athlete Club</p>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="#about">事業紹介</a>
+        <a href="#members">メンバー</a>
+        <a href="#contact">お問い合わせ</a>
+        <a href="#top">ページ上部へ</a>
+      </nav>
+      <small>(c)2026 Awaji Athlete Club</small>
+    </footer>
+  </body>
+</html>
